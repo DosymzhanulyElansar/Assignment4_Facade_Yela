@@ -3,7 +3,7 @@ package com.pattern.facade;
 public class InventoryService {
     public boolean checkStock(String itemCode, int quantity) {
         System.out.println("[InventoryService] Checking stock for " + itemCode + " (Quantity: " + quantity + ")...");
-        return true; // Имитируем, что товар есть в наличии
+        return true;
     }
 
     public boolean reserveStock(String itemCode, int quantity) {
